@@ -16,6 +16,14 @@
 
         <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
         <script type="text/javascript" src="script/ngCircleProgress.js"></script>
-
+        <script type="text/javascript">
+            angular.module('app', ['ngCircleProgress'])
+            .controller('Controller', ['$scope', function($scope) {
+                $scope.value = 50;
+                $scope.val = function() {
+                    $scope.value++;
+                };
+            }]);
+        </script>
     </body>
 </html>
