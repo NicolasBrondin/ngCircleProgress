@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="" ng-app="app" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Example ngCircleProgress</title>
+        <meta name="Author" content=""/>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body ng-controller="Controller">
+
+        <ngCircleProgress value="{{value}}" value-min="0" value-max="100">
+            {{value}}%
+        </ngCircleProgress>
+        
+        <button ng-click="val()">++</button>
+
+        <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="script/ngCircleProgress.js"></script>
+
+    </body>
+</html>

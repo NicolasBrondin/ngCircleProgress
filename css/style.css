@@ -1,0 +1,21 @@
+
+.round-progress
+{
+    border:3px solid grey;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #72bf44; /* Old browsers */
+    background: -moz-linear-gradient(left, #72bf44 0%, #72bf44 30%, #d9e6e9 30%, #d9e6e9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #72bf44 0%, #72bf44 30%, #d9e6e9 30%, #d9e6e9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #72bf44 0%, #72bf44 30%, #d9e6e9 30%, #d9e6e9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+    text-align: center;
+
+}
+
+.round-progress img
+{
+    margin-top: 15%;
+    width:70%;
+}
