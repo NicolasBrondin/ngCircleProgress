@@ -1,11 +1,4 @@
-angular.module('app', [])
-.controller('Controller', ['$scope', function($scope) {
-    $scope.value = 50;
-    $scope.val = function()
-    {
-        $scope.value++;
-    };
-}])
+angular.module('ngCircleProgress', [])
 .directive('ngCircleProgress', function() {
     return {
         restrict: 'E',
